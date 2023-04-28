@@ -75,7 +75,7 @@ function AddSensor() {
     function handleAddRequest() {
         // alert('chuan bi them device ne');
         // alert('gar_id ne ' + params.gar_id)
-        const data = {
+        const deviceData = {
             request: "add",
             name: name,
             type: params.device_type, 
@@ -105,7 +105,7 @@ function AddSensor() {
                 alert('Vui lòng nhập ngưỡng giá trị cho cảm biến')
             else {
                 // alert('Gửi form')
-                const isSuccess = handleDeviceRequest(data)
+                const isSuccess = handleDeviceRequest(deviceData)
                 if (isSuccess) {
                     alert('Thêm mới thiết bị thành công')
                     location.reload()

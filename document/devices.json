@@ -115,74 +115,50 @@
   "garPiece": 1
 },{
   "_id": {
-    "$oid": "644a3e20f62abf1c240ddce7"
+    "$oid": "644b6ea008c140051b1bcb88"
   },
   "id": 6,
   "name": "Sensor ánh sáng 2",
   "type": "light",
   "owner": "phongong",
   "coordinates": {
-    "x": 88,
-    "y": 8
+    "x": 23,
+    "y": 21
   },
   "status": true,
   "threshold": {
-    "min": 50,
-    "max": 100
+    "min": 23,
+    "max": 34
   },
   "water": null,
   "time": null,
   "garPiece": 1,
   "install_date": {
-    "$date": "2023-04-27T09:19:28.565Z"
+    "$date": "2023-04-28T06:58:40.028Z"
   },
   "__v": 0
 },{
   "_id": {
-    "$oid": "644a425ac6ef221781c89b2e"
+    "$oid": "644b6ed108c140051b1bcca8"
   },
   "id": 7,
-  "name": "Sensor ánh sáng 3",
+  "name": "Sensor test",
   "type": "light",
   "owner": "phongong",
   "coordinates": {
-    "x": 12,
-    "y": 24
+    "x": 123,
+    "y": 123
   },
   "status": true,
   "threshold": {
-    "min": 12,
-    "max": 1
+    "min": 32,
+    "max": 43
   },
   "water": null,
   "time": null,
-  "garPiece": 1,
+  "garPiece": 7,
   "install_date": {
-    "$date": "2023-04-27T09:37:30.925Z"
-  },
-  "__v": 0
-},{
-  "_id": {
-    "$oid": "644a453e38a6a9ad43d7ef8b"
-  },
-  "id": 8,
-  "name": "Sensor ánh sáng 4",
-  "type": "light",
-  "owner": "phongong",
-  "coordinates": {
-    "x": 22,
-    "y": 15
-  },
-  "status": true,
-  "threshold": {
-    "min": 11,
-    "max": 23
-  },
-  "water": null,
-  "time": null,
-  "garPiece": 1,
-  "install_date": {
-    "$date": "2023-04-27T09:49:50.256Z"
+    "$date": "2023-04-28T06:59:29.824Z"
   },
   "__v": 0
 }]

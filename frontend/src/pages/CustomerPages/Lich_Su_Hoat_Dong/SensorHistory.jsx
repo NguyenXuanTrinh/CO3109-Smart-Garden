@@ -53,7 +53,9 @@ function SensorHistory() {
     // let deviceName = []
     const loadDevice = async () => {
         try {
-            const deviceList = await getDeviceList(params.account)
+            let deviceList = await getDeviceList(params.account)
+            deviceList = deviceList.filter(elem => elem.garPiece == params.garden_id)
+            // alert('gar_id ne ' + params.garden_id)
             setDevice(deviceList)
             // deviceName = deviceList.map(device => <Dropdown.Item href="">{device.name}</Dropdown.Item>)
         } catch (err) {

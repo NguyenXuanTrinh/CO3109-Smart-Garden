@@ -101,9 +101,17 @@
     {
       "log_time": "2023-04-20T13:59:10Z",
       "value": "60"
+    },
+    {
+      "log_time": "2023-04-23T14:00:17Z",
+      "value": "60"
+    },
+    {
+      "log_time": "2023-04-28T04:26:24Z",
+      "value": "49.6"
     }
   ],
-  "curValue": "60",
+  "curValue": "49.6",
   "garPiece": 1
 },{
   "_id": {
@@ -117,6 +125,274 @@
     "max": "2023-04-04T05:04:55Z"
   },
   "valueList": [
+    {
+      "logTime": "2023-04-04T05:04:55Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-04T05:04:55Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-04T05:04:55Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-04T05:04:55Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-04T05:04:55Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-04T05:04:55Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-04T05:04:55Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-04T05:04:55Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-04T05:04:55Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-04T05:04:55Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-04T05:04:55Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-04T08:06:23Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-04T08:06:54Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-04T08:06:54Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-04T08:06:54Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-04T08:09:42Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-04T08:10:04Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-04T08:10:04Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-04T08:10:04Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-04T08:10:04Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-04T08:12:43Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-07T08:24:10Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T02:52:13Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T02:52:28Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T02:52:34Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T02:52:46Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T02:53:40Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T02:53:50Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T03:02:00Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T03:09:39Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T03:11:45Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T03:26:15Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T03:27:05Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T03:28:22Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T03:31:59Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T03:32:23Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T03:52:45Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T05:24:17Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T06:06:47Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T06:06:48Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T06:07:10Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T06:07:13Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T06:07:24Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T06:08:04Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T06:17:14Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T06:17:15Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T06:17:27Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T06:18:33Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T06:20:11Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T06:21:18Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T06:23:21Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T06:23:25Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T06:25:49Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T06:26:28Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T06:28:46Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T06:28:59Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T06:29:50Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-09T06:30:39Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-09T06:30:45Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-15T17:24:28Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-16T03:05:11Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-16T03:08:34Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-16T03:09:34Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-16T03:12:07Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-16T03:12:16Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-16T03:12:28Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-16T03:19:10Z",
+      "value": "OFF"
+    },
     {
       "log_time": "2023-04-16T03:19:12Z",
       "value": "OFF"
@@ -228,6 +504,450 @@
     {
       "log_time": "2023-04-21T17:46:40Z",
       "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-25T18:12:09Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T11:41:37Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T11:41:54Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T11:45:52Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T11:46:13Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T11:46:19Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T11:47:04Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T11:47:11Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T11:48:06Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T11:48:16Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T11:49:37Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T11:49:41Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T11:56:29Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T12:19:51Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T12:19:58Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T12:28:20Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T12:28:38Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T12:28:45Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T12:29:08Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T12:29:16Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T12:30:18Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T12:30:49Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T12:45:30Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T12:45:40Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T12:45:41Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T12:49:35Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T12:49:45Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T12:50:22Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T12:52:07Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T12:52:18Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T12:52:49Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T12:52:59Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T12:53:18Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T12:53:21Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T13:35:48Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T14:43:49Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T14:44:29Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T14:50:32Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T14:51:40Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T14:51:53Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T14:51:54Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T14:52:32Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T14:57:23Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T15:14:34Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T15:14:41Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T15:14:58Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T15:15:00Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T15:15:01Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T15:16:47Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T15:33:37Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T15:37:18Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T15:37:28Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T15:37:36Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T15:38:15Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T15:44:59Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T15:45:18Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T15:45:50Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T15:45:52Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T15:46:53Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T15:48:06Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T15:48:56Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T15:49:20Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T15:49:59Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T15:50:09Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T15:51:16Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T15:57:28Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T16:11:45Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T16:17:19Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T16:25:49Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T16:25:58Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T16:26:13Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T16:27:32Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T16:27:45Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T16:29:15Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T16:29:24Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T16:30:02Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T16:30:10Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T16:30:29Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T16:30:33Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T16:36:35Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T16:39:28Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T16:42:32Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T16:46:51Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T16:46:54Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T16:47:09Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T16:47:16Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T16:47:28Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T16:47:33Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T16:49:54Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T16:49:59Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T16:51:45Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-26T16:51:53Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-26T17:21:43Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-27T15:34:14Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-28T04:20:35Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-28T05:55:10Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-28T05:55:21Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-28T05:58:02Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-28T05:58:10Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-28T06:30:45Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-28T06:31:05Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-28T06:31:11Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-28T06:31:14Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-28T06:31:51Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-28T06:32:01Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-28T06:32:02Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-28T06:32:33Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-28T06:33:47Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-28T06:34:32Z",
+      "value": "ON"
+    },
+    {
+      "log_time": "2023-04-28T06:34:41Z",
+      "value": "OFF"
+    },
+    {
+      "log_time": "2023-04-28T06:36:06Z",
+      "value": "OFF"
     }
   ],
   "curValue": "OFF",
@@ -335,9 +1055,121 @@
     {
       "log_time": "2023-04-20T15:32:49Z",
       "value": "32"
+    },
+    {
+      "log_time": "2023-04-25T16:09:00Z",
+      "value": "33"
+    },
+    {
+      "log_time": "2023-04-26T13:03:35Z",
+      "value": "33"
+    },
+    {
+      "log_time": "2023-04-26T13:05:09Z",
+      "value": "33"
+    },
+    {
+      "log_time": "2023-04-26T13:18:12Z",
+      "value": "33"
+    },
+    {
+      "log_time": "2023-04-26T13:22:03Z",
+      "value": "35"
+    },
+    {
+      "log_time": "2023-04-26T13:22:18Z",
+      "value": "29"
+    },
+    {
+      "log_time": "2023-04-26T13:34:20Z",
+      "value": "28"
+    },
+    {
+      "log_time": "2023-04-26T13:35:14Z",
+      "value": "28"
+    },
+    {
+      "log_time": "2023-04-26T14:00:50Z",
+      "value": "33"
+    },
+    {
+      "log_time": "2023-04-27T07:55:07Z",
+      "value": "35"
+    },
+    {
+      "log_time": "2023-04-27T09:25:35Z",
+      "value": "40"
+    },
+    {
+      "log_time": "2023-04-27T09:27:18Z",
+      "value": "45"
+    },
+    {
+      "log_time": "2023-04-27T09:39:23Z",
+      "value": "30"
+    },
+    {
+      "log_time": "2023-04-27T09:39:26Z",
+      "value": "31"
+    },
+    {
+      "log_time": "2023-04-27T09:39:30Z",
+      "value": "34"
+    },
+    {
+      "log_time": "2023-04-27T09:39:38Z",
+      "value": "40"
+    },
+    {
+      "log_time": "2023-04-27T09:39:41Z",
+      "value": "30"
+    },
+    {
+      "log_time": "2023-04-27T09:39:48Z",
+      "value": "20"
+    },
+    {
+      "log_time": "2023-04-27T09:39:59Z",
+      "value": "23"
+    },
+    {
+      "log_time": "2023-04-27T15:50:05Z",
+      "value": "33"
+    },
+    {
+      "log_time": "2023-04-27T15:51:38Z",
+      "value": "33"
+    },
+    {
+      "log_time": "2023-04-27T15:52:53Z",
+      "value": "33"
+    },
+    {
+      "log_time": "2023-04-27T15:53:10Z",
+      "value": "33"
+    },
+    {
+      "log_time": "2023-04-27T15:54:05Z",
+      "value": "34"
+    },
+    {
+      "log_time": "2023-04-27T15:54:28Z",
+      "value": "44"
+    },
+    {
+      "log_time": "2023-04-27T15:54:52Z",
+      "value": "44"
+    },
+    {
+      "log_time": "2023-04-27T16:03:50Z",
+      "value": "45"
+    },
+    {
+      "log_time": "2023-04-28T04:26:24Z",
+      "value": "24.0"
     }
   ],
-  "curValue": "32",
+  "curValue": "24.0",
   "garPiece": 1
 },{
   "_id": {
@@ -454,9 +1286,121 @@
     {
       "log_time": "2023-04-20T15:31:27Z",
       "value": "45"
+    },
+    {
+      "log_time": "2023-04-25T16:35:13Z",
+      "value": "55"
+    },
+    {
+      "log_time": "2023-04-26T11:36:44Z",
+      "value": "40"
+    },
+    {
+      "log_time": "2023-04-26T11:46:50Z",
+      "value": "40"
+    },
+    {
+      "log_time": "2023-04-26T11:47:03Z",
+      "value": "40"
+    },
+    {
+      "log_time": "2023-04-26T12:46:13Z",
+      "value": "40"
+    },
+    {
+      "log_time": "2023-04-26T12:46:25Z",
+      "value": "35"
+    },
+    {
+      "log_time": "2023-04-26T12:47:13Z",
+      "value": "34"
+    },
+    {
+      "log_time": "2023-04-26T12:48:50Z",
+      "value": "33"
+    },
+    {
+      "log_time": "2023-04-26T12:49:34Z",
+      "value": "34"
+    },
+    {
+      "log_time": "2023-04-26T15:56:14Z",
+      "value": "34"
+    },
+    {
+      "log_time": "2023-04-26T15:57:27Z",
+      "value": "45"
+    },
+    {
+      "log_time": "2023-04-26T16:36:34Z",
+      "value": "44"
+    },
+    {
+      "log_time": "2023-04-26T16:38:22Z",
+      "value": "44"
+    },
+    {
+      "log_time": "2023-04-26T16:39:26Z",
+      "value": "55"
+    },
+    {
+      "log_time": "2023-04-26T16:41:37Z",
+      "value": "33"
+    },
+    {
+      "log_time": "2023-04-26T16:42:22Z",
+      "value": "33"
+    },
+    {
+      "log_time": "2023-04-26T16:47:45Z",
+      "value": "33"
+    },
+    {
+      "log_time": "2023-04-26T16:48:04Z",
+      "value": "40"
+    },
+    {
+      "log_time": "2023-04-26T16:48:54Z",
+      "value": "44"
+    },
+    {
+      "log_time": "2023-04-27T15:38:10Z",
+      "value": "55"
+    },
+    {
+      "log_time": "2023-04-28T04:26:24Z",
+      "value": "0"
+    },
+    {
+      "log_time": "2023-04-28T05:57:39Z",
+      "value": "12"
+    },
+    {
+      "log_time": "2023-04-28T05:58:01Z",
+      "value": "12"
+    },
+    {
+      "log_time": "2023-04-28T05:58:08Z",
+      "value": "23"
+    },
+    {
+      "log_time": "2023-04-28T06:34:07Z",
+      "value": "23"
+    },
+    {
+      "log_time": "2023-04-28T06:34:30Z",
+      "value": "23"
+    },
+    {
+      "log_time": "2023-04-28T06:34:40Z",
+      "value": "35"
+    },
+    {
+      "log_time": "2023-04-28T06:36:05Z",
+      "value": "36"
     }
   ],
-  "curValue": "45",
+  "curValue": "36",
   "garPiece": 1
 },{
   "_id": {
@@ -561,8 +1505,66 @@
     {
       "log_time": "2023-04-20T13:58:13Z",
       "value": "1166"
+    },
+    {
+      "log_time": "2023-04-25T16:16:05Z",
+      "value": "5000"
+    },
+    {
+      "log_time": "2023-04-26T11:24:05Z",
+      "value": "2000"
+    },
+    {
+      "log_time": "2023-04-26T12:43:17Z",
+      "value": "2200"
+    },
+    {
+      "log_time": "2023-04-26T12:43:30Z",
+      "value": "2412"
+    },
+    {
+      "log_time": "2023-04-27T07:55:24Z",
+      "value": "2222"
+    },
+    {
+      "log_time": "2023-04-28T04:26:24Z",
+      "value": "858"
     }
   ],
-  "curValue": "1166",
+  "curValue": "858",
   "garPiece": 1
+},{
+  "_id": {
+    "$oid": "644b6ea008c140051b1bcb89"
+  },
+  "id": 6,
+  "name": "Sensor ánh sáng 2",
+  "owner": "phongong",
+  "type": "light",
+  "time": {
+    "max": {
+      "$date": "2023-04-28T06:58:40.029Z"
+    }
+  },
+  "valueList": [],
+  "curValue": null,
+  "garPiece": 1,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644b6ed108c140051b1bcca9"
+  },
+  "id": 7,
+  "name": "Sensor test",
+  "owner": "phongong",
+  "type": "light",
+  "time": {
+    "max": {
+      "$date": "2023-04-28T06:59:29.824Z"
+    }
+  },
+  "valueList": [],
+  "curValue": null,
+  "garPiece": 7,
+  "__v": 0
 }]

@@ -1,4 +1,5 @@
 const Device = require('../models/device.model')
+const Record = require('../models/record.model')
 
 exports.getThresholdById = async (id) => {
     const threshold = Device.find({'id' : id})
@@ -104,6 +105,17 @@ exports.handleDeviceRequest = (req, res) => {
                         threshold: data.threshold,
                         water: data.water,
                         time: data.time,
+                        garPiece: data.garPiece
+                    }
+                ])
+                Record.insertMany([
+                    {
+                        id: data.id,
+                        name: data.name,
+                        type: data.type, 
+                        owner: data.owner,
+                        valueList: [],
+                        curValue: null, 
                         garPiece: data.garPiece
                     }
                 ])
