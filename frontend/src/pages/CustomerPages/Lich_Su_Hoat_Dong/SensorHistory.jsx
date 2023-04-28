@@ -13,7 +13,7 @@ const cx = classnames.bind(styles);
 
 function SensorHistory() {
     const navigate = useNavigate()
-    const lastPage = 5
+    const [lastPage, setLastPage] = useState(1)
     const sensorPerPage = 5
     const [currentPage, setCurrentPage] = useState(1)
     const [startIndex, setStartIndex] = useState(1)
@@ -88,6 +88,7 @@ function SensorHistory() {
                     </tr>
                 )
             })
+            setLastPage(Math.ceil(valueList.length / 5))
             setRecord(valueList)
 
         } catch (err) {
