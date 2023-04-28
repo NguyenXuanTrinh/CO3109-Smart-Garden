@@ -107,8 +107,8 @@ function AddSensor() {
                 // alert('Gửi form')
                 const isSuccess = handleDeviceRequest(data)
                 if (isSuccess) {
-                    // alert('Thêm mới thiết bị thành công')
-                    // location.reload()
+                    alert('Thêm mới thiết bị thành công')
+                    location.reload()
                 }
             }
         }

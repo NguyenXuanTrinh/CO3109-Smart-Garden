@@ -120,7 +120,7 @@ const ControlPump = () => {
                 else if(res.find(obj => obj.type === 'pump').curValue === 'ON') setPumpManual(true)
             }).catch(err => console.log(err))
         }
-        const interval = setInterval(() => getDataAdafruit(),1000)
+        const interval = setInterval(() => getDataAdafruit(),3000)
         return () => {
             clearInterval(interval);
         }
@@ -163,7 +163,7 @@ const ControlPump = () => {
                         </Col>
                         <Col xs={9} className={cx('center')}>
                             <RowSchedule schedule = {data}/>
-                            <Link className={cx('px-5')} to={{pathname:`/${user.account}/schedule`}}><Button size="lg">Thêm lịch</Button></Link>
+                            <Link className={cx('px-5')} to={{pathname:`/${user.account}/schedule/${user.garden_id}`}}><Button size="lg">Thêm lịch</Button></Link>
                             <Button size="lg" variant="secondary" onClick={() => setShow(true)}>Xóa tất cả</Button>
                         </Col>
 
@@ -189,7 +189,7 @@ const ControlPump = () => {
                             </div>
                             <div className={cx(`${!pumpMoisture?'opacity-25':''}`,'center')} >
                                 <h2>{soil}%</h2>
-                                <Button onClick={() => {navigate(`../${user.account}/InputValue`,{state: { prevPath: location.pathname}} )}}>Thiết Lập</Button>
+                                <Button onClick={() => {navigate(`../${user.account}/InputValue/${user.garden_id}`,{state: { prevPath: location.pathname}} )}}>Thiết Lập</Button>
                             </div>
                         </Col>
                         <Col className={cx('box','sm-box')}>

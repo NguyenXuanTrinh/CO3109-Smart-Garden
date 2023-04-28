@@ -9,11 +9,7 @@ const RowSchedule = (props) => {
     useEffect(() => {
         setListSchedule(props.schedule)
     },[props.schedule])
-    // const listSchedule = props.schedule;
-    // const dates = schedules.dates
-    // console.log(listSchedule)
-    // const [listSchedule,setListSchedule] = useState(props.schedule);
-    // setListSchedule(props.schedule)
+   
     const handleEdit = (id,schedule) => {
         // console.log(id)
         const newSche = listSchedule.map((date) => (date._id === id)?schedule:date)

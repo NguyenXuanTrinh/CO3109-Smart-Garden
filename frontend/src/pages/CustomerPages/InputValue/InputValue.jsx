@@ -53,10 +53,10 @@ const InputValue = () => {
         if(data.minTemp < 0 || data.maxTemp < 0 || data.soil < 0 || data.maxSoil < 0){
             alert("Không được nhập giá trị âm")
         }
-        else if(data.minTemp > data.maxTemp){
+        else if(data.minTemp >= data.maxTemp){
             alert("Giá trị nhiệt độ min không được lớn hơn giá trị max")
         }
-        else if(data.soil > data.maxSoil){
+        else if(data.soil >= data.maxSoil){
             alert("Độ ẩm mong muốn không được lớn hơn độ ẩm tối đa")
         }
         else{

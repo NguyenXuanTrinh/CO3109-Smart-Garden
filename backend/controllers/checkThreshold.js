@@ -1,6 +1,7 @@
 const { createNotification } = require('./notification.controller')
 const { getThresholdById, getDevicesByID } = require('./device.controller')
 const { getGardenPName } = require('./garden_piece.controller')
+const axios = require('axios')
 
 module.exports.checkThreshold = async (context) => {
     if (context['record']) {
@@ -12,6 +13,7 @@ module.exports.checkThreshold = async (context) => {
         const gardenName = await getGardenPName(device.garPiece)
         const {min, max} = await getThresholdById(dt.id)
         if (newValue.value < min || newValue.value > max) {
+          this.turnLight("ON")
           const threshold = newValue.value < min ? min : max;
           const type = dt.type === 'air' ? "Air Humidity"
                   : dt.type === 'temp' ? "Temperature" 
@@ -21,5 +23,33 @@ module.exports.checkThreshold = async (context) => {
             io.to(`notify-${dt.owner}`).emit('newNotify')
           }
         }
+        else{
+          this.turnLight("OFF")
+        }
     }
 }
+
+exports.turnLight = (value) => {
+  const headers = {
+    'Content-Type': 'application/json',
+    'Authorization': 'JWT fefege...',
+    'X-AIO-Key':'aio_Ewca52MVCwTlWYt8ykAtCVaVEj2e'
+  }
+  const data2 = {
+    "datum":
+    {
+      "value":value
+    }
+  }
+  axios.post('https://io.adafruit.com/api/v2/hongphat03/feeds/led-canh-bao/data', data2, {
+      headers: headers
+    })
+    .then((response) => {
+      // console.log("OK")
+    })
+    .catch((error) => {
+      console.log(error)
+    })
+
+}
+

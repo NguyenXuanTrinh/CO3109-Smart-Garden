@@ -52,7 +52,7 @@ const routes = [
     { path: '/:account/InputValue/:garden_id', component: InputValue },
     { path: '/:account/ManageSensor', component: ManageSensorPage },
     { path: '/:account/controlPump/:garden_id', component: ControlPump },
-    { path: '/:account/schedule', component: Schedule },
+    { path: '/:account/schedule/:garden_id', component: Schedule },
     { path: '/admin', component: ManageUser },
     { path: '/admin/request', component: ManageRequest },
     // Technician part

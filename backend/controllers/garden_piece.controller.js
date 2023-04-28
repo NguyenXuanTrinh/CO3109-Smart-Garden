@@ -57,8 +57,7 @@ exports.handleRequest = (req, res) => {
                         days: 20
                     }
                 ])
-            })
-            .then(item => res.status(200).send(item))
+            }).then(item => res.status(200).send(item))
             .catch(err => res.status(400).send(err))
     } else {
         const id = data.id
@@ -67,14 +66,13 @@ exports.handleRequest = (req, res) => {
             {
                 $set: {
                     name: data.name,
-                    type: data.email,
+                    type: data.type,
                     location: data.location,
                     owner: data.owner,
                     area: data.area,
                 }
             }
-        )
-        .then(item => res.status(200).send(item))
+        ).then(item => res.status(200).send(item))
         .catch(err => res.status(400).send(err))
     }
     // res.status(200).send('OK')

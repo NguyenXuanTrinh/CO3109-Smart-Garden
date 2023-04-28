@@ -3,21 +3,10 @@ const controller = require('../models/controller.model')
 const record = require('../models/record.model')
 
 const axios = require('axios')
-// exports.checkPump = () => {
-//   const intervalObj = setInterval(()=>{
-//     this.schedulePump(intervalObj);
-// },1000);}
 
 exports.postSchedule = (req, res) => {
     const scheduleList = req.body
-    console.log(scheduleList)
     const dates = scheduleList.dates
-    // console.log(dates)
-    // đổi chế độ tưới -> xóa hết chế độ cũ
-    // schedule.find({type:scheduleList.type})
-    // .then(data => {
-    //   if(data.length == 0) schedule.collection.deleteMany({})
-    // })
     dates.map((date) => {
       const data = {
         ...scheduleList,
@@ -42,7 +31,7 @@ exports.turnOn = (ctrl) => {
   const headers = {
     'Content-Type': 'application/json',
     'Authorization': 'JWT fefege...',
-    'X-AIO-Key':'aio_uSGF37H9XmlOIKuRXnKjb8lHjLbT'
+    'X-AIO-Key':'aio_Ewca52MVCwTlWYt8ykAtCVaVEj2e'
   }
   const data2 = {
     "datum":
@@ -109,7 +98,7 @@ exports.turnOff = (ctrl) => {
   const headers = {
     'Content-Type': 'application/json',
     'Authorization': 'JWT fefege...',
-    'X-AIO-Key':'aio_uSGF37H9XmlOIKuRXnKjb8lHjLbT'
+    'X-AIO-Key':'aio_Ewca52MVCwTlWYt8ykAtCVaVEj2e'
   }
   const data2 = {
     "datum":
@@ -190,69 +179,75 @@ exports.schedulePump = () => {
         let minute = new Date().getMinutes();
         minute = minute<10?"0"+minute.toString():minute.toString();
         let curTime = hour+":"+minute;
-  
-      //   // lặp lại theo tuần
-        if(schedules[0].type == "weekly"){
-          schedules.forEach((obj) => {
-            // obj.dates="2023-04-24"
-            // const cur = new Date("2023-04-24");
-            // console.log(cur.toDateString())
-            // console.log(day.toISOString())
-            // console.log(obj.dates)
-            if(day.toDateString().includes(obj.dates) || day.toISOString().includes(obj.dates)  && obj.time === curTime){
-              this.turnOn("system")
-              const timer = Math.floor(obj.water/30)
-              setTimeout(() => {
-                this.turnOff("system");
-              },timer*1000)
-              const current = new Date();
-              current.setDate(current.getDate() + 7);
-              schedule.collection.updateOne({_id: obj._id},{
-                $set:{
-                  dates:current.toISOString().substring(0,10)
-                }
-              })
-            }
-          })
+
+        schedules.forEach((obj,index) => {
           
-        } 
-        // lặp lại theo tháng
-        else if(schedules[0].type == "monthly"){
-          schedules.forEach((obj) => {
-            let days = new Date(obj.dates)
-            if(days.toISOString().substring(0,10) === day.toISOString().substring(0,10) && obj.time === curTime){
-              // clearInterval(intervalObj);
-              this.turnOn("system")
-              const timer = Math.floor(obj.water/30)
-              setTimeout(() => {
-                this.turnOff("system");
-              },timer*1000)
-              const month = days.getMonth()+1 < 12 ? days.getMonth()+1:0
-              days.setMonth(month)
-              const res = schedule.collection.updateOne({_id: obj._id},{
-                $set:{
-                  dates:days.toISOString().substring(0,10)
-                }
-              })
-  
-            }
-          })
-        }
-        // lặp lại trong khoảng thời gian
-        else if(schedules[0].type === "custom"){
-          schedules.forEach((obj) => {
-            let days = new Date(obj.dates)
-            days = days.toDateString();
-            if(day.toDateString() === days && obj.time === curTime){
-              this.turnOn("system")
-              const timer = Math.floor(obj.water/30)
-              setTimeout(() => {
-                this.turnOff("system");
-              },timer*1000)
-              schedule.collection.deleteOne({_id:schedules[0]._id})
-            }
-          })
-        }
+          // lặp lại theo tuần
+          if(schedules[index].type === "weekly"){
+            // schedules.forEach((obj) => {
+              // obj.dates="2023-04-24"
+              // const cur = new Date("2023-04-24");
+              // console.log(cur.toDateString())
+              // console.log(day.toISOString())
+              // console.log(obj.dates)
+              if(day.toDateString().includes(obj.dates) || day.toISOString().includes(obj.dates)  && obj.time === curTime){
+                this.turnOn("system")
+                const timer = Math.floor(obj.water/30)
+                setTimeout(() => {
+                  this.turnOff("system");
+                },timer*1000)
+                const current = new Date();
+                current.setDate(current.getDate() + 7);
+                schedule.collection.updateOne({_id: obj._id},{
+                  $set:{
+                    dates:current.toISOString().substring(0,10)
+                  }
+                })
+              }
+            // })
+            
+          } 
+          // lặp lại theo tháng
+          else if(schedules[index].type === "monthly"){
+            // schedules.forEach((obj) => {
+              let days = new Date(obj.dates)
+              if(days.toISOString().substring(0,10) === day.toISOString().substring(0,10) && obj.time === curTime){
+                // clearInterval(intervalObj);
+                this.turnOn("system")
+                const timer = Math.floor(obj.water/30)
+                setTimeout(() => {
+                  this.turnOff("system");
+                },timer*1000)
+                const month = days.getMonth()+1 < 12 ? days.getMonth()+1:0
+                days.setMonth(month)
+                const res = schedule.collection.updateOne({_id: obj._id},{
+                  $set:{
+                    dates:days.toISOString().substring(0,10)
+                  }
+                })
+    
+              }
+            // })
+          }
+          // lặp lại trong khoảng thời gian
+          else if(schedules[index].type === "custom"){
+            // schedules.forEach((obj) => {
+              let days = new Date(obj.dates)
+              days = days.toDateString();
+              if(day.toDateString() === days && obj.time === curTime){
+                this.turnOn("system")
+                const timer = Math.floor(obj.water/30)
+                setTimeout(() => {
+                  this.turnOff("system");
+                },timer*1000)
+                // console.log(obj._id)
+                schedule.collection.deleteOne({_id:obj._id})
+              }
+            // })
+          }
+
+        })
+        
       }
     })
     .catch(err => console.log(err))
@@ -305,18 +300,5 @@ exports.deleteAll = (req,res) => {
   .catch(err => console.log(err))
 }
 
-// exports.controlAutoPump1 = (res,req) => {
-//   res.status(200).send("Success")
-//   console.log("aaa")
-//   // const status = req.params['value']
-//   // console.log(status)
-//   // const value = false;
-//   // if(value === 'true'){
-//   //     Observable.subscribe(autoPump)
-//   // }
-//   // else if(value === 'false'){
-//   //     Observable.unsubscribe(autoPump);
-//   // }
-  
-// }
+
 
