@@ -120,7 +120,7 @@ const ControlPump = () => {
                 else if(res.find(obj => obj.type === 'pump').curValue === 'ON') setPumpManual(true)
             }).catch(err => console.log(err))
         }
-        const interval = setInterval(() => getDataAdafruit(),3000)
+        const interval = setInterval(() => getDataAdafruit(),1000)
         return () => {
             clearInterval(interval);
         }

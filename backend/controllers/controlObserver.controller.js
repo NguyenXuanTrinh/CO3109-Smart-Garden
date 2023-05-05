@@ -6,9 +6,11 @@ exports.controlAutoPump = (req,res) => {
     const value = req.params['value'];
     if(value === '1'){
         Observable.subscribe(autoPump)
+        console.log("subscribe")
     }
     else if(value === '0'){
         Observable.unsubscribe(autoPump);
+        console.log("unsubscribe")
     }
     res.send("OK")
   }
